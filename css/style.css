@@ -2,10 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   background-image: url(https://img.freepik.com/premium-vector/apple-background-flat-illustration_598748-19.jpg?w=2000);
 }
 .corps {
-width: 1200px;;
+width: 75%;
 margin: auto;
 background-color: white;
 }
@@ -21,7 +23,11 @@ ul {
 li {
   float: left;
 }
-
+.tit {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif !important; 
+  font-size: 50px !important;
+}
 li a {
   display: block;
   color: white;
@@ -29,7 +35,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+h4 {
+  color: red;
+}
 li a:hover {
   background-color: rgb(105, 105, 105);
 }
@@ -86,12 +94,18 @@ a.button {
 -webkit-appearance: button;
 -moz-appearance: button;
 appearance: button;
-
+font-size: 50px;
+background-color: greenyellow;
 text-decoration: none;
 color: initial;
+border: 2px solid chartreuse;
+  border-radius: 15px;
 }
 .page::after {
 content: "";
 clear: both;
 display: table;
+}
+form {
+  line-height: 50pxpx;
 }
